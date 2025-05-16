@@ -1,0 +1,426 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>
+   healthGenie
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&amp;display=swap" rel="stylesheet"/>
+ <link rel="stylesheet" href="style.css">
+ </head>
+ <body  class="bg-[#f0f9ff] text-gray-900">
+  <header class="max-w-7xl mx-auto px-6 py-6 flex items-center justify-between">
+   <div class="text-[#7cc6f7] font-bold text-xl select-none">
+    HEALTHGENIE
+   </div>
+   <nav class="space-x-6 text-sm font-semibold text-gray-600 hidden md:flex">
+    <a class="nav" href="#">
+     Home
+    </a>
+    <a class="nav" href="#">
+     About
+    </a>
+    <a class="nav" href="#ourService">
+     Service
+    </a>
+    <a class="nav" href="#bookAppoint">
+     Appointment
+    </a>
+   </nav>
+   <a class="hidden md:inline-block bg-[#7cc6f7] text-white text-sm font-semibold px-5 py-2 rounded hover:bg-[#5aa9e6]" href="#">
+    Get Started
+   </a>
+  </header>
+  <main class="max-w-7xl mx-auto px-6">
+   <!-- Hero Section -->
+   <section class="flex flex-col-reverse md:flex-row items-center justify-between gap-8 md:gap-16 py-12">
+    <div class="max-w-lg text-center md:text-left">
+     <h1 class="text-3xl md:text-4xl font-semibold text-gray-900 leading-tight">
+      Find And Search Your
+      <br/>
+      <span class="text-[#7cc6f7]">
+       Suitable Doctor's
+      </span>
+     </h1>
+     <p class="mt-3 text-gray-500 text-sm md:text-base">
+      We are here to help you find the best doctors and medical services
+          near you.
+     </p>
+     <div class="mt-6 space-x-4">
+      <button class="bg-[#7cc6f7] text-white px-6 py-2 rounded text-sm font-semibold hover:bg-[#5aa9e6] transition duration-300">
+       Get Started
+      </button>
+      <button class="border border-gray-300 text-gray-600 px-6 py-2 rounded text-sm font-semibold hover:bg-gray-100 transition duration-300">
+       Learn More
+      </button>
+     </div>
+    </div>
+    <div class="relative w-full max-w-sm md:max-w-md flex justify-center">
+     <div class="blob-bg">
+      <img alt="Portrait of a confident female doctor with stethoscope around neck and arms crossed" class="hero-image" height="360" src="https://storage.googleapis.com/a1aa/image/bb9c8c24-37c1-4a32-e76b-c20bfe787961.jpg" width="360"/>
+      <!-- Floating icons -->
+      <div class="floating-icon" style="top: 3rem; left: 1rem;">
+       <img alt="Call icon" src="https://storage.googleapis.com/a1aa/image/a0a344b5-3c33-409c-b098-9686cc0be335.jpg"/>
+      </div>
+      <div class="floating-icon" style="top: 5rem; right: 1rem;">
+       <img alt="Chat icon" src="https://storage.googleapis.com/a1aa/image/00cd7e1e-16cb-444f-fe2a-545c5d4d1c5d.jpg"/>
+      </div>
+      <div class="floating-icon" style="bottom: 4rem; left: 3rem; width: 56px; height: 40px; border-radius: 1rem;">
+       <img alt="Rating icon with 5 stars" src="https://storage.googleapis.com/a1aa/image/4fcbd265-08df-48db-c7c3-f65d6b85f892.jpg" style="width: 56px; height: 40px; border-radius: 1rem;"/>
+      </div>
+      <div class="heart-badge">
+       <i class="fas fa-heart text-red-500"></i>
+       <span>3500+</span>
+      </div>
+     </div>
+    </div>
+   </section>
+   <!-- 3 Easy Steps Section -->
+   <section class="text-center py-12 max-w-4xl mx-auto">
+    <h2 class="text-lg font-semibold text-gray-900 mb-8">
+     3 Easy Steps and Get Your Solution
+    </h2>
+    <div class="flex flex-col md:flex-row justify-between gap-8">
+     <div class="flex flex-col items-center space-y-3">
+      <img alt="Magnifying glass icon representing Find best doctors" class="w-12 h-12" height="48" src="https://storage.googleapis.com/a1aa/image/6ede83c8-9083-44f5-e3ff-c8ef5a0c51e7.jpg" width="48"/>
+      <h3 class="font-semibold text-gray-900">
+       Find best doctor’s
+      </h3>
+      <p class="text-gray-500 text-sm max-w-xs">
+       Search for the best doctors in your area with ease and confidence.
+      </p>
+     </div>
+     <div class="flex flex-col items-center space-y-3">
+      <img alt="Calendar icon representing Get Appointment" class="w-12 h-12" height="48" src="https://storage.googleapis.com/a1aa/image/4a1e7ed3-bb82-4115-86df-2a18af7c4031.jpg" width="48"/>
+      <h3 class="font-semibold text-gray-900">
+       Get Appointment
+      </h3>
+      <p class="text-gray-500 text-sm max-w-xs">
+       Schedule your appointment quickly and conveniently online.
+      </p>
+     </div>
+     <div class="flex flex-col items-center space-y-3">
+      <img alt="Phone icon representing Happy Consultation" class="w-12 h-12" height="48" src="https://storage.googleapis.com/a1aa/image/6f0fe65f-740d-4398-f79d-d21ea1571370.jpg" width="48"/>
+      <h3 class="font-semibold text-gray-900">
+       Happy Consultation
+      </h3>
+      <p class="text-gray-500 text-sm max-w-xs">
+       Enjoy a smooth and professional consultation experience.
+      </p>
+     </div>
+    </div>
+   </section>
+   <!-- Best Quality Service Section -->
+   <section class="flex flex-col md:flex-row items-center justify-between gap-8 max-w-6xl mx-auto py-12">
+    <div class="relative w-full max-w-sm md:max-w-md">
+     <img alt="Smiling male doctor giving thumbs up" class="rounded-lg relative z-10 shadow-lg" height="400" src="https://storage.googleapis.com/a1aa/image/f483db57-4d1a-44a1-d63e-cdc6145865af.jpg" width="400"/>
+     <div class="absolute top-10 left-0 bg-white rounded-lg shadow-md p-4 w-48 flex items-center space-x-3">
+      <img alt="Profile picture of Dr. Ahmad Ahmed" class="w-12 h-12 rounded-full" height="48" src="https://storage.googleapis.com/a1aa/image/d83df5cc-f3fd-4022-0e09-f86c2045f8ff.jpg" width="48"/>
+      <div>
+       <p class="text-sm font-semibold text-gray-900">
+        Dr. Ahmad Ahmed
+       </p>
+       <p class="text-xs text-gray-500">
+        Cardiologist
+       </p>
+      </div>
+     </div>
+    </div>
+    <div class="max-w-xl text-center md:text-left" id="bookAppoint">
+     <h2 class="text-2xl font-semibold text-gray-900 mb-4">
+      Best quality service with our experience doctors
+     </h2>
+     <p class="text-gray-500 mb-6 text-sm md:text-base">
+      We don’t just provide care, we offer a complete health solution with
+          experienced doctors and personalized attention.
+     </p>
+     <ul class="list-disc list-inside space-y-2 text-gray-600 text-sm md:text-base">
+      <li>
+       Expert care &amp; treatment in a wide range of specialties
+      </li>
+      <li>
+       Convenient online appointment booking
+      </li>
+      <li>
+       24/7 support &amp; follow-up care
+      </li>
+      <li>
+       Trusted by thousands of patients
+      </li>
+     </ul>
+     <button class="mt-6 bg-[#7cc6f7] text-white px-6 py-2 rounded text-sm font-semibold hover:bg-[#5aa9e6] transition duration-300">
+      Book an Appointment
+     </button>
+    </div>
+   </section>
+   <!-- Our Service Section -->
+   <section class="text-center py-12 max-w-6xl mx-auto">
+    <h2 class="text-lg font-semibold text-gray-900 mb-2" id="ourService">
+     Our Service
+    </h2>
+    <p class="text-gray-500 text-sm mb-10">
+     We provide a wide range of medical services to meet your needs.
+    </p>
+    <div class="grid grid-cols-1 sm:grid-cols-3 gap-8 max-w-4xl mx-auto">
+     <div class="bg-white rounded-3xl shadow-lg p-8 flex flex-col items-center space-y-6 hover:shadow-xl transition-shadow duration-300">
+      <img alt="Heart icon representing Cardiology service" class="w-20 h-20" height="80" src="https://storage.googleapis.com/a1aa/image/e1e1eb9e-cc85-45b3-96bc-5ea16e0a7fd0.jpg" width="80"/>
+      <h3 class="font-semibold text-gray-900 text-lg">
+       Cardiology
+      </h3>
+      <p class="text-gray-500 text-sm max-w-xs">
+       Comprehensive heart care and treatment by expert cardiologists.
+      </p>
+     </div>
+     <div class="bg-white rounded-3xl shadow-lg p-8 flex flex-col items-center space-y-6 hover:shadow-xl transition-shadow duration-300">
+      <img alt="Lungs icon representing Pulmonology service" class="w-20 h-20" height="80" src="https://storage.googleapis.com/a1aa/image/4d6b2112-9952-4c9f-4bad-7ed47d3a287d.jpg" width="80"/>
+      <h3 class="font-semibold text-gray-900 text-lg">
+       Pulmonology
+      </h3>
+      <p class="text-gray-500 text-sm max-w-xs">
+       Advanced respiratory care and treatment for lung conditions.
+      </p>
+     </div>
+     <div class="bg-white rounded-3xl shadow-lg p-8 flex flex-col items-center space-y-6 hover:shadow-xl transition-shadow duration-300">
+      <img alt="Medicine capsule icon representing Medicine service" class="w-20 h-20" height="80" src="https://storage.googleapis.com/a1aa/image/b92c95b0-a8b7-46e3-0d9a-35e635bd5efc.jpg" width="80"/>
+      <h3 class="font-semibold text-gray-900 text-lg">
+       Medicine
+      </h3>
+      <p class="text-gray-500 text-sm max-w-xs">
+       General medicine services for a wide range of health issues.
+      </p>
+     </div>
+    </div>
+   </section>
+   <!-- Meet Our Certified Online Doctors Section -->
+   <section class="text-center py-12 max-w-7xl mx-auto">
+    <h2 class="text-lg font-semibold text-gray-900 mb-2">
+     Meet Our Certified Online Doctors
+    </h2>
+    <p class="text-gray-500 text-sm mb-10 max-w-xl mx-auto">
+     Our online doctors are among of the top in specialized fields with
+        years of experience. They ready to see you now!
+    </p>
+    <div class="grid grid-cols-2 sm:grid-cols-4 gap-8 max-w-5xl mx-auto items-center">
+     <div class="space-y-3">
+      <img alt="Portrait of Dr. Amanda Lewis, female doctor" class="w-full rounded-2xl shadow-md hover:shadow-lg transition-shadow duration-300" height="150" src="https://storage.googleapis.com/a1aa/image/d90ca7be-fd84-419c-d463-cc47adaa73d2.jpg" width="150"/>
+      <p class="font-semibold text-gray-900">
+       Dr. Amanda Lewis
+      </p>
+      <div class="flex justify-center space-x-4 text-[#7cc6f7] text-lg">
+       <a aria-label="Facebook" href="#">
+        <i class="fab fa-facebook-f"></i>
+       </a>
+       <a aria-label="Twitter" href="#">
+        <i class="fab fa-twitter"></i>
+       </a>
+       <a aria-label="LinkedIn" href="#">
+        <i class="fab fa-linkedin-in"></i>
+       </a>
+      </div>
+     </div>
+     <div class="space-y-3">
+      <img alt="Portrait of Dr. Alice Roberts, female doctor" class="w-full rounded-2xl shadow-md hover:shadow-lg transition-shadow duration-300" height="150" src="https://storage.googleapis.com/a1aa/image/613201e7-92df-43f8-b1ba-73bd342a0821.jpg" width="150"/>
+      <p class="font-semibold text-gray-900">
+       Dr. Alice Roberts
+      </p>
+      <div class="flex justify-center space-x-4 text-[#7cc6f7] text-lg">
+       <a aria-label="Facebook" href="#">
+        <i class="fab fa-facebook-f"></i>
+       </a>
+       <a aria-label="Twitter" href="#">
+        <i class="fab fa-twitter"></i>
+       </a>
+       <a aria-label="LinkedIn" href="#">
+        <i class="fab fa-linkedin-in"></i>
+       </a>
+      </div>
+     </div>
+     <div class="space-y-3">
+      <img alt="Portrait of Dr. Anthony Paul, male doctor" class="w-full rounded-2xl shadow-md hover:shadow-lg transition-shadow duration-300" height="150" src="https://storage.googleapis.com/a1aa/image/e4f0727a-6ce9-490d-b3fe-cdcc6d105d12.jpg" width="150"/>
+      <p class="font-semibold text-gray-900">
+       Dr. Anthony Paul
+      </p>
+      <div class="flex justify-center space-x-4 text-[#7cc6f7] text-lg">
+       <a aria-label="Facebook" href="#">
+        <i class="fab fa-facebook-f"></i>
+       </a>
+       <a aria-label="Twitter" href="#">
+        <i class="fab fa-twitter"></i>
+       </a>
+       <a aria-label="LinkedIn" href="#">
+        <i class="fab fa-linkedin-in"></i>
+       </a>
+      </div>
+     </div>
+     <div class="space-y-3">
+      <img alt="Portrait of Dr. Rizuki Ahmed, male doctor" class="w-full rounded-2xl shadow-md hover:shadow-lg transition-shadow duration-300" height="150" src="https://storage.googleapis.com/a1aa/image/69c50fda-22ba-4ca2-95c9-c1f6a8a95a1c.jpg" width="150"/>
+      <p class="font-semibold text-gray-900">
+       Dr. Rizuki Ahmed
+      </p>
+      <div class="flex justify-center space-x-4 text-[#7cc6f7] text-lg">
+       <a aria-label="Facebook" href="#">
+        <i class="fab fa-facebook-f"></i>
+       </a>
+       <a aria-label="Twitter" href="#">
+        <i class="fab fa-twitter"></i>
+       </a>
+       <a aria-label="LinkedIn" href="#">
+        <i class="fab fa-linkedin-in"></i>
+       </a>
+      </div>
+     </div>
+    </div>
+    <button class="mt-10 bg-[#7cc6f7] text-white px-6 py-2 rounded text-sm font-semibold hover:bg-[#5aa9e6] transition duration-300">
+     Explore All Doctors
+    </button>
+   </section>
+   <!-- Mobile Apps Section -->
+   <section class="flex flex-col md:flex-row items-center justify-center gap-12 max-w-6xl mx-auto py-12">
+    <div class="relative w-64 h-96">
+     <img alt="Mobile phone showing healthcare app interface with icons and features" class="rounded-3xl shadow-2xl" height="384" src="https://storage.googleapis.com/a1aa/image/5a7d8918-befd-4034-c774-eabb3dd00767.jpg" width="256"/>
+     <div aria-label="App store download buttons" class="absolute -bottom-6 left-0 flex space-x-4">
+      <a class="block" href="#">
+       <img alt="Google Play Store badge" class="h-12" src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg"/>
+      </a>
+      <a class="block" href="#">
+       <img alt="Apple App Store badge" class="h-12" src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"/>
+      </a>
+     </div>
+    </div>
+    <div class="max-w-md text-center md:text-left">
+     <h3 class="text-lg font-semibold text-gray-900 mb-3">
+      Mobile apps are available
+      <br/>
+      Get HealthCare for free!
+     </h3>
+     <p class="text-gray-500 text-sm">
+      Now you have access to a doctor on your phone, with the best
+          healthcare service apps. Download and register now for free and feel
+          safer for all your family.
+     </p>
+    </div>
+   </section>
+   <!-- Call to Action Section -->
+   <section class="bg-gradient-to-r from-[#5aa9e6] to-[#7cc6f7] rounded-3xl max-w-6xl mx-auto py-12 px-10 flex flex-col md:flex-row items-center justify-between gap-6 text-white shadow-lg">
+    <h2 class="text-2xl font-semibold max-w-lg">
+     It’s Time Change Your Life Today
+    </h2>
+    <button class="bg-white text-[#7cc6f7] font-semibold px-6 py-3 rounded-xl hover:bg-gray-100 transition duration-300 shadow-md">
+     Check an Appointment
+    </button>
+   </section>
+  </main>
+  <!-- Footer -->
+  <footer class="bg-[#e6f4ff] mt-16 py-12">
+   <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-12">
+    <div>
+     <h3 class="text-[#7cc6f7] font-bold text-xl mb-4 select-none">
+      HEALTCARE.
+     </h3>
+     <p class="text-gray-600 text-sm mb-6 max-w-xs">
+      Your trusted partner in health and wellness.
+     </p>
+     <div class="flex space-x-4 text-gray-600 text-lg">
+      <a aria-label="Facebook" class="hover:text-[#7cc6f7]" href="#">
+       <i class="fab fa-facebook-f"></i>
+      </a>
+      <a aria-label="Twitter" class="hover:text-[#7cc6f7]" href="#">
+       <i class="fab fa-twitter"></i>
+      </a>
+      <a aria-label="Instagram" class="hover:text-[#7cc6f7]" href="#">
+       <i class="fab fa-instagram"></i>
+      </a>
+      <a aria-label="LinkedIn" class="hover:text-[#7cc6f7]" href="#">
+       <i class="fab fa-linkedin-in"></i>
+      </a>
+     </div>
+    </div>
+    <div>
+     <h4 class="font-semibold text-gray-900 mb-4">
+      Category
+     </h4>
+     <ul class="space-y-2 text-gray-600 text-sm">
+      <li>
+       <a class="hover:text-[#7cc6f7]" href="#">
+        Cardiology
+       </a>
+      </li>
+      <li>
+       <a class="hover:text-[#7cc6f7]" href="#">
+        Pulmonology
+       </a>
+      </li>
+      <li>
+       <a class="hover:text-[#7cc6f7]" href="#">
+        Medicine
+       </a>
+      </li>
+      <li>
+       <a class="hover:text-[#7cc6f7]" href="#">
+        Neurology
+       </a>
+      </li>
+      <li>
+       <a class="hover:text-[#7cc6f7]" href="#">
+        Pediatrics
+       </a>
+      </li>
+     </ul>
+    </div>
+    <div>
+     <h4 class="font-semibold text-gray-900 mb-4">
+      About
+     </h4>
+     <ul class="space-y-2 text-gray-600 text-sm">
+      <li>
+       <a class="hover:text-[#7cc6f7]" href="#">
+        Company
+       </a>
+      </li>
+      <li>
+       <a class="hover:text-[#7cc6f7]" href="#">
+        Team
+       </a>
+      </li>
+      <li>
+       <a class="hover:text-[#7cc6f7]" href="#">
+        Careers
+       </a>
+      </li>
+      <li>
+       <a class="hover:text-[#7cc6f7]" href="#">
+        Blog
+       </a>
+      </li>
+      <li>
+       <a class="hover:text-[#7cc6f7]" href="#">
+        Contact
+       </a>
+      </li>
+     </ul>
+    </div>
+    <div>
+     <h4 class="font-semibold text-gray-900 mb-4">
+      Subscribe Newsletter
+     </h4>
+     <p class="text-gray-600 text-sm mb-4">
+      Stay up to date with our latest news and offers.
+     </p>
+     <form class="flex flex-col sm:flex-row gap-3">
+      <input class="px-4 py-2 rounded border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#7cc6f7] text-sm" placeholder="Enter your email" type="email"/>
+      <button class="bg-[#7cc6f7] text-white px-6 py-2 rounded text-sm font-semibold hover:bg-[#5aa9e6] transition duration-300" type="submit">
+       Subscribe
+      </button>
+     </form>
+    </div>
+   </div>
+   <div class="text-center text-gray-500 text-xs mt-10">
+    © 2024 Healthcare. All rights reserved. Designed by Healthcare Team.
+   </div>
+  </footer>
+  <script src="script.js"></script>
+ </body>
+</html>

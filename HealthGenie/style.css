@@ -1,0 +1,85 @@
+body {
+    font-family: 'Inter', sans-serif;
+  }
+ /* Custom shapes and shadows for hero image background */
+ .blob-bg {
+   position: relative;
+   width: 400px;
+   height: 400px;
+   background: linear-gradient(135deg, #7cc6f7 0%, #a0d8f7 100%);
+   border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+   filter: drop-shadow(0 10px 15px rgba(124, 198, 247, 0.4));
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   overflow: visible;
+ }
+ .blob-bg::before {
+   content: "";
+   position: absolute;
+   top: -40px;
+   left: -40px;
+   width: 150px;
+   height: 150px;
+   background: #a0d8f7;
+   border-radius: 50%;
+   filter: blur(40px);
+   z-index: 0;
+ }
+ .blob-bg::after {
+   content: "";
+   position: absolute;
+   bottom: -50px;
+   right: -50px;
+   width: 180px;
+   height: 180px;
+   background: #5aa9e6;
+   border-radius: 50%;
+   filter: blur(50px);
+   z-index: 0;
+ }
+ .hero-image {
+   position: relative;
+   width: 360px;
+   height: 360px;
+   border-radius: 1.25rem;
+   box-shadow: 0 25px 40px rgba(92, 144, 220, 0.3);
+   object-fit: cover;
+   transform: translateX(-20px);
+   z-index: 10;
+ }
+ /* Floating icons with subtle shadows */
+ .floating-icon {
+   position: absolute;
+   width: 40px;
+   height: 40px;
+   background: white;
+   border-radius: 50%;
+   box-shadow: 0 4px 8px rgba(124, 198, 247, 0.3);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   z-index: 20;
+ }
+ .floating-icon img {
+   width: 20px;
+   height: 20px;
+ }
+ .heart-badge {
+   position: absolute;
+   bottom: 20px;
+   right: 20px;
+   background: white;
+   border-radius: 1rem;
+   padding: 0.25rem 0.75rem;
+   box-shadow: 0 4px 12px rgba(255, 0, 0, 0.15);
+   display: flex;
+   align-items: center;
+   gap: 0.5rem;
+   font-weight: 600;
+   color: #ef4444;
+   font-size: 0.875rem;
+   z-index: 20;
+ }
+ 
+ 
