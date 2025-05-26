@@ -21,9 +21,10 @@ Internet connection (for Tailwind CDN)
 
 How to Run
 1. Clone the project
-<pre> ```bash # This is a bash command
+<pre> bash 
+# This is a bash command
 git clone https://github.com/Yashikagarg211/HealthGenie.git
-cd HealthGenie``` </pre>
+cd HealthGenie </pre>
 2. Run the Project
 You can either open it directly in your browser or use a local server.
 ✅ Option A: Open in Browser
