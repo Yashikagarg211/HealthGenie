@@ -21,7 +21,8 @@ Internet connection (for Tailwind CDN)
 
 How to Run
 1. Clone the project
-<pre> ```bash # This is a bash command git clone https://github.com/Yashikagarg211/HealthGenie.git
+<pre> ```bash # This is a bash command
+git clone https://github.com/Yashikagarg211/HealthGenie.git
 cd HealthGenie``` </pre>
 2. Run the Project
 You can either open it directly in your browser or use a local server.
@@ -36,7 +37,9 @@ Right-click on index.html → "Open with Live Server".
 
 ✅ Option C: Use Python HTTP Server (Alternative)
 If you have Python installed, run:
-<pre> ```bash # For Python 3 python -m http.server 8000``` </pre>
+<pre> ```bash
+# For Python 3
+python -m http.server 8000``` </pre>
 Then open http://localhost:8000 in your browser.
 
 💡 Future Scope
