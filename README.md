@@ -10,12 +10,12 @@ HealthGenie is a responsive and interactive healthcare website designed to provi
 🧠 AI/ML Placeholder Features – Prepared for future integration of AI-based symptom checker or chatbot.
 
 🛠️ Tech Stack
-Frontend: HTML, CSS, Tailwind CSS, JavaScript
-UI Components: Tailwind Utility Classes
+Frontend: HTML, CSS, Tailwind CSS, JavaScript 
+UI Components: Tailwind Utility Classes 
 Icons & Fonts: Font Awesome / Google Fonts (if applicable)
 
 🚀 Getting Started
-Prerequisites
+Prerequisites 
 Web browser (Chrome, Firefox, etc.)
 Internet connection (for Tailwind CDN)
 
